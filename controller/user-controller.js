@@ -22,10 +22,9 @@ import { userServices } from "../service/user-service.js";
                                         class="text__button">Play Demo<span class="overlay"></span></a>
                     </div>
                 </div>
-    `;
+        `;
 
         card.innerHTML = content;
-
         return card;
     }
 
@@ -40,5 +39,4 @@ import { userServices } from "../service/user-service.js";
             console.log(error);
         }
     })();
-
 })();
